@@ -60,6 +60,7 @@
     <!-- 图册 -->
     <?php if ($detail['type'] == 2) : ?>
     <div class="container">
+        <?php if (!empty($list)) : ?>
         <div class="art2-container">
             <?php foreach ($list as $item) : ?>
             <div class="img9-item">
@@ -77,6 +78,7 @@
         <div class="art2-foot">
             <?= $list->render() ?>
         </div>
+        <?php endif; ?>
     </div>
     <?php endif; ?>
 
