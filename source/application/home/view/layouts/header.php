@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/home/css/common.min.css" />
     <link rel="stylesheet" href="assets/home/css/index.min.css" />
     <link rel="stylesheet" href="assets/home/css/zqh.css" />
-    <link rel="stylesheet" href="assets/home/css/zqh-m.css?v=1" />
+    <link rel="stylesheet" href="assets/home/css/zqh-m.css?v=<?= time() ?>" />
 </head>
 
 <body>
@@ -64,7 +64,7 @@
                             <a href="javascript: void(0)" class="am-menu-toggle"></a>
                             <div class="am-offcanvas">
                                 <div class="am-offcanvas-bar">
-                                    <ul class="am-menu-nav am-avg-sm-1">                                        
+                                    <ul class="am-menu-nav am-avg-sm-1">
                                         <li><a href="<?= url('/index') ?>" class="">首页</a></li>
 
                                         <?php foreach ($menus as $item) : ?>
