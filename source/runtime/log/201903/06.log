@@ -1,0 +1,953 @@
+---------------------------------------------------------------
+[ 2019-03-06T18:08:54+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/17
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001184s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 0,9 [ RunTime:0.000465s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:08:54+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/17
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001566s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000911s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.001991s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 0,9 [ RunTime:0.001041s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:09:01+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/17
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010998s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000857s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 0,9 [ RunTime:0.000434s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:09:05+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/17
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001914s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.001006s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 0,9 [ RunTime:0.000589s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:09:27+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/17
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021107s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.001057s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 0,9 [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:09:54+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/17
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001142s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 0,9 [ RunTime:0.000547s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:11:57+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/17
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003611s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.007976s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.003515s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.003796s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 0,9 [ RunTime:0.000455s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:12:17+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/17
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001240s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002664s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002848s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002682s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 0,9 [ RunTime:0.000482s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:13:02+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001210s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002813s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002586s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002569s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000504s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:13:05+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001226s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002791s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002609s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002626s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 0,9 [ RunTime:0.000501s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:13:36+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001164s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002753s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002506s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002689s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 0,9 [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:13:38+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010889s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002849s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002661s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002704s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000456s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:13:41+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010843s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002731s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002689s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002484s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000423s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:13:42+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010991s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002708s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002804s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.003037s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 0,9 [ RunTime:0.000514s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:13:44+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010204s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002853s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002694s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002674s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:13:46+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001329s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002687s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002514s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002613s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000458s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:14:01+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001208s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002813s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002497s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002530s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:14:02+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010279s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002801s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002569s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002712s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000433s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:14:03+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010387s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002680s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002778s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002615s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 0,9 [ RunTime:0.000533s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:14:14+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001221s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002900s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002539s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002736s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000423s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:14:16+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001289s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002957s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002724s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002816s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 0,9 [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:14:36+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001124s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002737s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002471s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002758s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 0,9 [ RunTime:0.000427s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:14:38+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001156s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000422s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:14:40+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/18
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001388s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000787s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (7,6,5) LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (7,6,5) LIMIT 0,9 [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:14:43+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/17
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001147s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 0,9 [ RunTime:0.000443s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:14:46+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009949s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000425s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:15:09+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010352s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000873s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000405s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:15:44+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001381s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000570s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:15:51+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001254s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000488s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:15:57+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010570s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.001141s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:16:04+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001326s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 0,9 [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:16:08+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010380s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:16:16+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001353s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 0,9 [ RunTime:0.000431s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:16:19+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010287s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000425s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:16:25+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/18
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010154s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (7,6,5) LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (7,6,5) LIMIT 0,9 [ RunTime:0.000312s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:16:44+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/18
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001215s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (7,6,5) LIMIT 1 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (7,6,5) LIMIT 0,9 [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:16:52+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/17
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001319s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 0,9 [ RunTime:0.000408s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:17:20+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/17
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001613s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.001157s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 0,9 [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:17:29+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001425s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000565s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:17:38+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010687s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000869s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000484s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:17:46+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010858s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000424s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:18:05+08:00 ] 0.0.0.0 GET /index.php?s=%2Farticle%2Fid%2F17&page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001267s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 5 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (5) [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (4,1,2,5,9,8,12,11,19,18,17,16,15,14) LIMIT 9,9 [ RunTime:0.000404s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:18:11+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001452s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.003633s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000363s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:18:16+08:00 ] 0.0.0.0 GET /index.php?s=/news/id/2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001345s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.002846s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` IN (6) [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:18:29+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010308s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.002600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000400s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:24:50+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003584s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.007664s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.003057s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.003244s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.003015s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000408s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:25:08+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010399s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002808s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002725s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.002727s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002532s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:25:34+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001394s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002886s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002616s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.002622s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002886s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000406s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:25:40+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001194s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002869s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002765s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.002826s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002542s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:25:54+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001197s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002804s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002487s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.002641s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002433s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:26:24+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001187s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002755s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.003163s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.002747s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002703s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:26:42+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001145s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002750s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002806s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.002567s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002501s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000347s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:27:02+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001468s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002941s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002596s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.002628s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002450s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000344s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:27:14+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010687s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002960s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002819s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.002914s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002446s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000356s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:27:26+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001586s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002731s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002493s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.002624s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002804s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000567s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:27:39+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001110s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.003315s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002511s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.002624s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002489s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000419s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:27:46+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001724s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.003173s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002541s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.002721s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002972s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000419s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:27:54+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001218s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.003634s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002512s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.002603s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002613s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000364s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:28:00+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001329s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002770s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002760s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.002867s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002743s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:29:30+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001306s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002771s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002796s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.002689s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.003054s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000422s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:30:02+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001233s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.002849s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.002721s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.002815s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.002577s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:30:09+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001207s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000339s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:30:26+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001180s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000343s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:31:09+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001257s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000871s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000350s ]
+---------------------------------------------------------------
+[ 2019-03-06T18:31:31+08:00 ] 0.0.0.0 GET /index.php?s=/article/id/19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001262s ] mysql:host=127.0.0.1;port=3306;dbname=zd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_article` [ RunTime:0.000845s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`is_child`,`name`,`sort` FROM `zd_article` ORDER BY `sort` DESC [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_wxapp_page` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_wxapp_page` LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `id` = 6 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_article` WHERE  `pid` IN (6) [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_news` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zd_news` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_news` WHERE  `pid` = 19 ORDER BY `sort` ASC LIMIT 0,3 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zd_upload_file` [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SELECT * FROM `zd_upload_file` WHERE  `file_id` IN (12,18,8) [ RunTime:0.000343s ]
