@@ -208,7 +208,8 @@
 
     }
 
-    .news-container p,.news-container p span {
+    .news-container p,
+    .news-container p span {
         font-size: 1.2rem !important;
     }
 
@@ -258,5 +259,15 @@
     }
 
 
+    .news-title h2 {
+        padding: 0 1rem !important;
+    }
 
+
+    /* 
+    兼容性处理
+    */
+    .index3-bg {
+        filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7f000000, endcolorstr=#7f000000);        
+    }
 }
