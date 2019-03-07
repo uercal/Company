@@ -178,7 +178,7 @@
         padding: 0;
         display: flex;
         overflow: hidden;
-        flex-wrap: wrap;        
+        flex-wrap: wrap;
         line-height: auto;
     }
 
@@ -205,7 +205,13 @@
 
     .news-container {
         padding: 0 1rem;
+
     }
+
+    .news-container p,.news-container p span {
+        font-size: 1.2rem !important;
+    }
+
 
     .news-container p img {
         width: 100%;
