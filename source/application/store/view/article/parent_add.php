@@ -46,7 +46,32 @@
                                 </div>
                             </div>
 
-                            
+
+                            <div class="am-form-group" id="banner">
+                                <label class="am-u-sm-3 am-u-lg-2 am-form-label">对应banner图</label>
+                                <div class="am-u-sm-9 am-u-end">
+                                    <div class="am-form-file">
+                                        <div class="am-form-file">
+                                            <button type="button" class="upload-file-banner am-btn am-btn-secondary am-radius">
+                                                <i class="am-icon-cloud-upload"></i> 选择图片
+                                            </button>
+                                            <div class="uploader-list am-cf">
+                                                <?php if (!empty($model['banner'])) : ?>
+                                                <div class="file-item">
+                                                    <img src="<?= $model['banner']['src'] ?>">
+                                                    <input type="hidden" name="article[banner_id][0][id]" value="<?= $model['banner']['id'] ?>">
+                                                    <input type="text" name="article[banner_id][0][title]" placeholder="填写标题" value="<?= $model['banner']['title'] ?>">
+                                                    <i class="iconfont icon-shanchu file-item-delete"></i>
+                                                </div>
+                                                <?php endif; ?>
+                                            </div>
+                                        </div>
+                                        <div class="help-block am-margin-top-sm">
+                                            <small>尺寸750x750像素以上，大小2M以下 (可拖拽图片调整显示顺序 )</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
 
 
@@ -133,6 +158,12 @@
             multiple: true
         });
 
+        // banner
+        $('.upload-file-banner').selectImages({
+            name: 'article[banner_id]',
+            multiple: false
+        });
+
         // 图片列表拖动
         $('.uploader-list').DDSort({
             target: '.file-item',
@@ -204,9 +235,9 @@
                 $('.detail').hide();
             }
             if (selected_value == 4 && is_child == 0) {
-                $('#text').hide();
+                $('#text').show();
                 $('#pic').show();
-                $('.detail').hide();
+                $('.detail').show();
             }
         });
 

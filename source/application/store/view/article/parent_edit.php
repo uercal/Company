@@ -239,6 +239,11 @@
                 $('#pic').hide();
                 $('.detail').hide();
             }
+            if (selected_value == 4 && is_child == 0) {
+                $('#text').show();
+                $('#pic').show();
+                $('.detail').show();
+            }
         });
 
 
