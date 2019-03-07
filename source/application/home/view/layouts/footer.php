@@ -14,7 +14,7 @@
                                 <strong class="footer_main--column_title" <?php if ($item['is_child'] == 0) : ?> onclick="article(<?= $item['id'] ?>)" <?php endif; ?>>
                                     <?= $item['name'] ?></strong>
                                 <ul class="footer_navigation">
-                                    <?php if (!empty($item['children'])) : foreach ($item['children'] as $child) : ?>
+                                    <?php if (!empty($item['child'])) : foreach ($item['child'] as $child) : ?>
                                     <li class="footer_navigation--item"><a href="#" class="footer_navigation--link" onclick="article(<?= $child['id'] ?>)">
                                             <?= $child['name'] ?></a></li>
                                     <?php endforeach;

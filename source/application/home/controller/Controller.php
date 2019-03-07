@@ -95,16 +95,8 @@ class Controller extends \think\Controller
     private function menus()
     {
         $model = new Article;
-        $list = $model->getList()->toArray();
-        $data = [];
-        foreach ($list as $key => $value) {
-            if ($value['pid'] == 0) {
-                $data[$value['id']] = $value;
-            } else {
-                $data[$value['pid']]['children'][] = $value;
-            }
-        }
-        return $data;
+        $list = $model->getMenuList()->toArray();                
+        return $list;
     }
 
 

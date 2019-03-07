@@ -32,9 +32,9 @@
                                 <a class="<?= $item['is_child'] == 1 ? 'pchild' : '' ?>" href="<?= $item['is_child'] == 1 ? '#' : url('/article', ['id' => $item['id']]) ?>">
                                     <?= $item['name'] ?></a>
                                 <!-- sub-menu start-->
-                                <?php if (!empty($item['children'])) : ?>
+                                <?php if (!empty($item['child'])) : ?>
                                 <ul class="sub-menu">
-                                    <?php foreach ($item['children'] as $child) : ?>
+                                    <?php foreach ($item['child'] as $child) : ?>
                                     <li class="menu-item"><a href="<?= url('/article', ['id' => $child['id']]) ?>">
                                             <?= $child['name'] ?></a></li>
                                     <?php endforeach; ?>
@@ -68,12 +68,12 @@
                                         <li><a href="<?= url('index') ?>" class="">首页</a></li>
 
                                         <?php foreach ($menus as $item) : ?>
-                                        <li class="<?= !empty($item['children']) ? 'am-parent' : '' ?>">
+                                        <li class="<?= !empty($item['child']) ? 'am-parent' : '' ?>">
                                             <a href="<?= $item['is_child'] == 1 ? '#' : url('/article', ['id' => $item['id']]) ?>">
                                                 <?= $item['name'] ?></a>
-                                            <?php if (!empty($item['children'])) : ?>
+                                            <?php if (!empty($item['child'])) : ?>
                                             <ul class="am-menu-sub am-collapse ">
-                                                <?php foreach ($item['children'] as $child) : ?>
+                                                <?php foreach ($item['child'] as $child) : ?>
                                                 <li class=""><a href="<?= url('/article', ['id' => $child['id']]) ?>">
                                                         <?= $child['name'] ?></a></li>
                                                 <?php endforeach; ?>

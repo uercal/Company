@@ -104,7 +104,10 @@ class Article extends BaseModel
     }
 
 
-
+    public function getMenuList()
+    {
+        return self::with(['child'])->where(['pid' => 0])->order('sort desc')->select();
+    }
 
 
 
