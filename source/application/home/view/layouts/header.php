@@ -65,7 +65,7 @@
                             <div class="am-offcanvas">
                                 <div class="am-offcanvas-bar">
                                     <ul class="am-menu-nav am-avg-sm-1">                                        
-                                        <li><a href="<?= url('index') ?>" class="">首页</a></li>
+                                        <li><a href="<?= url('/index') ?>" class="">首页</a></li>
 
                                         <?php foreach ($menus as $item) : ?>
                                         <li class="<?= !empty($item['child']) ? 'am-parent' : '' ?>">
@@ -117,8 +117,8 @@
         <!--===========layout-container================-->
         <div class="layout-container">
             <div class="index-page">
-                <div data-am-widget="tabs" class="am-tabs am-tabs-default">
-                    <div class="am-tabs-bd banner">
+                <div data-am-widget="tabs" class="am-tabs am-tabs-default banner">
+                    <div class="am-tabs-bd">
                         <div data-tab-panel-0 class="am-tab-panel am-active">
                             <div data-am-widget="slider" class="am-slider am-slider-a1" data-am-slider='{directionNav:false,slideshowSpeed: 2000}'>
                                 <ul class="am-slides">
