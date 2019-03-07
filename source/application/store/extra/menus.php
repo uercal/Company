@@ -161,7 +161,7 @@ return [
     'setting' => [
         'name' => '设置',
         'icon' => 'icon-setting',
-        'index' => 'setting/store',
+        'index' => 'setting.cache/clear',
         'submenu' => [
             // [
             //     'name' => '商城设置',
