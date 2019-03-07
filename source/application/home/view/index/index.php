@@ -3,7 +3,7 @@
         <?php if (isset($index_data['nav'])) : ?>
         <?php foreach ($index_data['nav']['data'] as $nav) : ?>
         <div class="index3-item" style="background: url('<?= $nav['imgUrl'] ?>');" onclick="article(<?= $nav['artId'] ?>)">
-            <div class="index3-bg" style="background-color: rgba(<?= $nav['coverColorRgb'] ?>,<?= $nav['opacity'] ?>);">
+            <div class="index3-bg" style="background: rgba(<?= $nav['coverColorRgb'] ?>,<?= $nav['opacity'] ?>);">
                 <div class="index3-text">
                     <p class="index3-title"><?= $nav['title'] ?></p>
                     <p class="index3-en"><?= $nav['en'] ?></p>
