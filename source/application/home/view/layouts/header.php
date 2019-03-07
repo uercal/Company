@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/home/css/common.min.css" />
     <link rel="stylesheet" href="assets/home/css/index.min.css" />
     <link rel="stylesheet" href="assets/home/css/zqh.css" />
-    <link rel="stylesheet" href="assets/home/css/zqh-m.css" />
+    <link rel="stylesheet" href="assets/home/css/zqh-m.css?v=1" />
 </head>
 
 <body>
