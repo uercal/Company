@@ -158,50 +158,50 @@ return [
     //     'is_svg' => true,   // 多色图标
     //     //        'index' => 'plugins/index',
     // ],
-    // 'setting' => [
-    //     'name' => '设置',
-    //     'icon' => 'icon-setting',
-    //     'index' => 'setting/store',
-    //     'submenu' => [
-    //         [
-    //             'name' => '商城设置',
-    //             'index' => 'setting/store',
-    //         ],
-    //         [
-    //             'name' => '交易设置',
-    //             'index' => 'setting/trade',
-    //         ],
-    //         [
-    //             'name' => '配送设置',
-    //             'index' => 'setting.delivery/index',
-    //             'uris' => [
-    //                 'setting.delivery/index',
-    //                 'setting.delivery/add',
-    //                 'setting.delivery/edit',
-    //             ],
-    //         ],
-    //         [
-    //             'name' => '短信通知',
-    //             'index' => 'setting/sms'
-    //         ],
-    //         [
-    //             'name' => '上传设置',
-    //             'index' => 'setting/storage',
-    //         ],
-    //         [
-    //             'name' => '其他',
-    //             'active' => true,
-    //             'submenu' => [
-    //                 [
-    //                     'name' => '清理缓存',
-    //                     'index' => 'setting.cache/clear'
-    //                 ],
-    //                 [
-    //                     'name' => '环境检测',
-    //                     'index' => 'setting.science/index'
-    //                 ],
-    //             ]
-    //         ]
-    //     ],
-    // ],
+    'setting' => [
+        'name' => '设置',
+        'icon' => 'icon-setting',
+        'index' => 'setting/store',
+        'submenu' => [
+            // [
+            //     'name' => '商城设置',
+            //     'index' => 'setting/store',
+            // ],
+            // [
+            //     'name' => '交易设置',
+            //     'index' => 'setting/trade',
+            // ],
+            // [
+            //     'name' => '配送设置',
+            //     'index' => 'setting.delivery/index',
+            //     'uris' => [
+            //         'setting.delivery/index',
+            //         'setting.delivery/add',
+            //         'setting.delivery/edit',
+            //     ],
+            // ],
+            // [
+            //     'name' => '短信通知',
+            //     'index' => 'setting/sms'
+            // ],
+            // [
+            //     'name' => '上传设置',
+            //     'index' => 'setting/storage',
+            // ],
+            [
+                'name' => '其他',
+                'active' => true,
+                'submenu' => [
+                    [
+                        'name' => '清理缓存',
+                        'index' => 'setting.cache/clear'
+                    ],
+                    [
+                        'name' => '环境检测',
+                        'index' => 'setting.science/index'
+                    ],
+                ]
+            ]
+        ],
+    ],
 ];
