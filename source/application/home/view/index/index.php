@@ -24,7 +24,7 @@ endif; ?>
     </div>
     <div class="pro-pic">
         <?php if (isset($index_data['projects'])) : foreach ($index_data['projects']['data'] as $pro) : ?>
-        <div class="pro-pic-item" onclick="project(<?= $pro['project_id'] ?>)">
+        <div class="pro-pic-item" onclick="project(<?= isset($item['project_id']) ? $item['project_id'] : 0 ?>)">
             <img src="<?= $pro['imgUrl'] ?>">
             <div class="pro-pic-text">
                 <p><?= $pro['content'] ?></p>
