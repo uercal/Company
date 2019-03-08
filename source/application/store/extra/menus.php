@@ -90,6 +90,11 @@ return [
         'icon' => 'icon-order',
         'index' => 'news/index',
     ],
+    'project' => [
+        'name' => '项目管理',
+        'icon' => 'icon-order',
+        'index' => 'project/index',
+    ],
     // 'user' => [
     //     'name' => '用户管理',
     //     'icon' => 'icon-user',

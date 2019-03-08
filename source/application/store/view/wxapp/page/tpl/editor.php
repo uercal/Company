@@ -159,10 +159,10 @@
                     <div class="item-image"><img src="{{ $value.imgUrl }}" alt=""></div>
                     <div class="item-form am-form-file">                       
                         <div class="input-group">
-                        <label class="am-u-sm-3 am-form-label am-text-xs">文章ID </label>
+                        <label class="am-u-sm-3 am-form-label am-text-xs">项目ID </label>
                             <div class="am-u-sm-9 am-u-end">
-                                <input class="" type="text" name="artId"
-                                    data-bind="data.{{ $index }}.artId" value="{{ $value.artId }}">
+                                <input class="" type="text" name="project_id"
+                                    data-bind="data.{{ $index }}.project_id" value="{{ $value.project_id }}">
                             </div>                                                        
                         </div>                                  
                         <div class="input-group">

@@ -22,7 +22,7 @@
                                 <div class="am-u-sm-9 am-u-end">
                                     <select name="article[pid]" required data-am-selected="{searchBox: 1, btnSize: 'sm',  placeholder:'请选择文章分类'}">
                                         <option value=""></option>
-                                        <?php if (isset($p_list)): foreach ($p_list as $first): ?>
+                                        <?php if (isset($p_list)) : foreach ($p_list as $first) : ?>
                                         <option value="<?= $first['id'] ?>" <?= $model['pid'] === $first['id'] ? 'selected' : '' ?>>
                                             <?= $first['name'] ?>
                                         </option>
@@ -56,7 +56,7 @@
                                                 <i class="am-icon-cloud-upload"></i> 选择图片
                                             </button>
                                             <div class="uploader-list am-cf">
-                                                <?php if (!empty($model['banner'])): ?>
+                                                <?php if (!empty($model['banner'])) : ?>
                                                 <div class="file-item">
                                                     <img src="<?= $model['banner']['src'] ?>">
                                                     <input type="hidden" name="article[banner_id][0][id]" value="<?= $model['banner']['id'] ?>">
@@ -87,11 +87,12 @@
                                                     <i class="am-icon-cloud-upload"></i> 选择图片
                                                 </button>
                                                 <div class="uploader-list am-cf">
-                                                    <?php foreach ($model['image'] as $key => $item): ?>
+                                                    <?php foreach ($model['image'] as $key => $item) : ?>
                                                     <div class="file-item">
                                                         <img src="<?= $item['src'] ?>">
                                                         <input type="hidden" name="article[pic_ids][<?= $key ?>][id]" value="<?= $item['id'] ?>">
                                                         <input type="text" name="article[pic_ids][<?= $key ?>][title]" placeholder="填写标题" value="<?= $item['title'] ?>">
+                                                        <input type="text" name="article[pic_ids][<?= $key ?>][project_id]" placeholder="填写项目ID" value="<?= isset($item['project_id']) ? $item['project_id'] : '' ?>">
                                                         <i class="iconfont icon-shanchu file-item-delete"></i>
                                                     </div>
                                                     <?php endforeach; ?>

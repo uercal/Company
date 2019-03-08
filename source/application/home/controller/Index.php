@@ -3,6 +3,7 @@ namespace app\home\controller;
 
 use app\common\model\Article;
 use app\common\model\News;
+use app\common\model\Project;
 use think\Request;
 use function Qiniu\json_decode;
 
@@ -44,4 +45,12 @@ class Index extends Controller
         // halt($detail->toArray());
         return $this->fetch('news', compact('news'));
     }
+
+
+    public function project()
+    {
+        $id = input('id');
+        $project = Project::detail($id);
+        return $this->fetch('project', compact('project'));
+     }
 }

@@ -63,7 +63,7 @@
         <?php if (!empty($list)) : ?>
         <div class="art2-container">
             <?php foreach ($list as $item) : ?>
-            <div class="img9-item">
+            <div class="img9-item" onclick="project(<?= $item['project_id'] ?>)">
                 <div class="img9-div">
                     <img class="in" src="<?= $item['file_path'] ?>">
                     <div class="img9-attr">

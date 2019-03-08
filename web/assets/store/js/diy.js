@@ -75,22 +75,22 @@
                 data: [{
                     imgUrl: BASE_URL + 'assets/store/img/diy/banner_01.jpg',
                     imgName: 'banner-1.jpg',
-                    artId: 0,
+                    project_id: 0,
                     content: ''
                 }, {
                     imgUrl: BASE_URL + 'assets/store/img/diy/banner_01.jpg',
                     imgName: 'banner-1.jpg',
-                    artId: 0,
+                    project_id: 0,
                     content: ''
                 }, {
                     imgUrl: BASE_URL + 'assets/store/img/diy/banner_01.jpg',
                     imgName: 'banner-1.jpg',
-                    artId: 0,
+                    project_id: 0,
                     content: ''
                 }, {
                     imgUrl: BASE_URL + 'assets/store/img/diy/banner_01.jpg',
                     imgName: 'banner-1.jpg',
-                    artId: 0,
+                    project_id: 0,
                     content: ''
                 }]
             },

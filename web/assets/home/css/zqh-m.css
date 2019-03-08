@@ -6,6 +6,7 @@
         display: flex;
         padding-top: 1rem;
         align-items: flex-start;
+        height: 10rem;
     }
 
     .index3-item {
@@ -269,5 +270,13 @@
     */
     .index3-bg {
         filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7f000000, endcolorstr=#7f000000);        
+    }
+
+
+
+    /* footer处理 */
+    .am-g{
+        display: flex;
+        flex-direction: column;
     }
 }

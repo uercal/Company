@@ -116,12 +116,12 @@ class Article extends BaseModel
     {
         $upload = new UploadFile;
         $ids = $this->pic_ids;
-        $ids = json_decode($ids, true);        
+        $ids = json_decode($ids, true);
         $_ids = [];
-        if(empty($ids)) return [];
+        if (empty($ids)) return [];
         foreach ($ids as $key => $value) {
             $_ids[] = $value['id'];
-        }        
+        }
         $imgs = $upload->whereIn('file_id', $_ids)->paginate(9, false, [
             'query' => Request::instance()->request()
         ]);
@@ -129,6 +129,7 @@ class Article extends BaseModel
             foreach ($ids as $k => $v) {
                 if ($v['id'] == $value->file_id) {
                     $value->title = $v['title'];
+                    $value->project_id = $v['project_id'];
                 }
             }
         }

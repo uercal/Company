@@ -65,6 +65,10 @@
         window.location.href = url;
     }
 
+    function project(id) {
+        var url = "<?= url('/project') ?>/id/" + id;
+        window.location.href = url;
+    }
 
     <?php if ((isset($detail) && $detail['type'] == 1) || isset($news)) : ?>
     $('.art1-container img').click(function() {
