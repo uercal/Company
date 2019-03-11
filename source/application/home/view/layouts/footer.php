@@ -53,12 +53,11 @@
                             <a href="javascript: void(0)" class="am-menu-toggle">
                                 <i class="am-menu-toggle-icon am-icon-bars"></i>
                             </a>
-
-
                             <ul class="am-menu-nav am-avg-sm-1">
                                 <?php foreach ($menus as $k => $item) : ?>
                                 <li class="am-parent">
-                                    <a href="##" class=""><?= $item['name'] ?></a>
+                                    <a href="##" class="" onclick="article(<?= $item['is_child'] == 1 ? '0' : $item['id'] ?>)"><?= $item['name'] ?></a>
+                                    <?php if ($item['is_child'] == 1) : ?>
                                     <ul class="am-menu-sub am-collapse  am-avg-sm-1 ">
                                         <?php if (!empty($item['child'])) : foreach ($item['child'] as $child) : ?>
                                         <li class="">
@@ -68,6 +67,7 @@
                                 endif; ?>
                                         <!-- <li class=" am-menu-nav-channel"><a href="##" class="" title="公司">进入栏目 &raquo;</a></li> -->
                                     </ul>
+                                    <?php endif; ?>
                                 </li>
                                 <?php endforeach; ?>
                                 <li class="am-parent">
@@ -84,7 +84,7 @@
                                     </ul>
                                 </li>
                             </ul>
-                        </nav>                        
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -99,6 +99,7 @@
 </body>
 <script>
     function article(id) {
+        if (id == 0) return false;
         var url = "<?= url('/article') ?>/id/" + id;
         window.location.href = url;
     }
@@ -117,6 +118,14 @@
         var url = "<?= url('/project') ?>/id/" + id;
         window.location.href = url;
     }
+
+    function headerQuit() {
+        var $nav = $('#menu-offcanvas');
+        $nav.offCanvas('close');
+    }
+
+
+
 
     <?php if ((isset($detail) && $detail['type'] == 1) || isset($news)) : ?>
     $('.art1-container img').click(function() {

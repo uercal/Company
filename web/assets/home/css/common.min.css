@@ -90,14 +90,11 @@
     .am-menu-offcanvas1 .am-menu-nav>li>a:focus,
     .m-header .am-menu-offcanvas1 .am-menu-nav>.am-open>a,
     .m-header .am-menu-offcanvas1 .am-menu-nav>li>a:hover {
-        background-color: #ab1312 !important;
-        color: #fff;
+        background-color: #fff !important;
+        color: #ab1312;
         outline: 0
     }
-
-    .m-header .am-menu-offcanvas1 .am-menu-sub {
-        background-color: #ab1312 !important
-    }
+    
 
     .m-header .am-menu-sub {
         padding: 0

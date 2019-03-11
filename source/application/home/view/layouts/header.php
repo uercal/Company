@@ -56,15 +56,21 @@
         <!--mobile header start-->
         <div class="m-header">
             <div class="am-g am-show-sm-only">
-                <div class="am-u-sm-2">
+                <div class="am-u-sm-2" style="float:right;">
                     <div class="menu-bars">
                         <a href="#doc-oc-demo1" data-am-offcanvas="{effect: 'push'}"><i class="am-menu-toggle-icon am-icon-bars"></i></a>
                         <!-- 侧边栏内容 -->
-                        <nav data-am-widget="menu" class="am-menu  am-menu-offcanvas1" data-am-menu-offcanvas>
-                            <a href="javascript: void(0)" class="am-menu-toggle"></a>
-                            <div class="am-offcanvas">
+                        <nav data-am-widget="menu" class="am-menu am-menu-offcanvas1" data-am-menu-offcanvas>
+                            <a href="javascript: void(0)" class="am-menu-toggle" id="test"></a>
+                            <div class="am-offcanvas" id="menu-offcanvas">
                                 <div class="am-offcanvas-bar">
                                     <ul class="am-menu-nav am-avg-sm-1">
+                                        <li>
+                                            <div class="m-header-nav">导航</div>
+                                            <div class="m-header-quit-div" onclick="headerQuit();">
+                                                <div class="m-header-quit"></div>
+                                            </div>
+                                        </li>
                                         <li><a href="<?= url('/index') ?>" class="">首页</a></li>
 
                                         <?php foreach ($menus as $item) : ?>
@@ -105,7 +111,7 @@
 
                     </div>
                 </div>
-                <div class="am-u-sm-8 am-u-end">
+                <div class="am-u-sm-8 am-u-end" style="float:right;">
                     <div class="m-logo">
                         <a href=""><img src="assets/home/images/logo_m.png" alt=""></a>
                     </div>
