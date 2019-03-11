@@ -75,7 +75,7 @@
                                     <ul class="am-menu-sub am-collapse  am-avg-sm-1 ">
                                         <?php foreach ($foot_company as $company) : ?>
                                         <li class="">
-                                            <a href="<?= $company['jumpUrl'] ?>" style="color:#fff;">
+                                            <a href="<?= empty($company['jumpUrl']) ? '##' : $company['jumpUrl'] ?>" style="color:#fff;">
                                                 <?= $company['name'] ?>
                                             </a>
                                         </li>
