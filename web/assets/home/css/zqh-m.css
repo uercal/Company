@@ -119,8 +119,8 @@
     .m-header-quit {
         height: 1rem;
         width: 1rem;
-        border-top: 2px solid #fff;
-        border-right: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        border-left: 2px solid #fff;
         transform: rotate(45deg);
     }
 
