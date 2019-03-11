@@ -100,13 +100,15 @@ class Article extends BaseModel
 
     public function getList()
     {
-        return self::field(['id', 'pid', 'is_child', 'name', 'sort'])->order('sort desc')->select();
+        return self::field(['id', 'pid', 'is_child', 'name', 'sort'])->order('sort asc')->select();
     }
 
 
     public function getMenuList()
     {
-        return self::with(['child'])->where(['pid' => 0])->order('sort desc')->select();
+        return self::with(['child' => function ($query) {
+            $query->order('sort asc');
+        }])->where(['pid' => 0])->order('sort asc')->select();
     }
 
 

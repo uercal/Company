@@ -3,12 +3,13 @@
 <div class="layout-footer">
     <div class="footer">
         <div style="background-color:#AB1312;" class="footer--bg"></div>
+        <?php if (!$is_moblie) : ?>
         <div class="footer--inner">
             <div class="container foot-container">
                 <div class="footer_main">
                     <div class="am-g">
                         <!--  -->
-                        <?php foreach ($menus as $item) : ?>
+                        <?php foreach ($menus as $k => $item) : ?>
                         <div class="am-u-md-3">
                             <div class="footer_main--column">
                                 <strong class="footer_main--column_title" <?php if ($item['is_child'] == 0) : ?> onclick="article(<?= $item['id'] ?>)" <?php endif; ?>>
@@ -42,6 +43,53 @@
                 </div>
             </div>
         </div>
+        <?php else : ?>
+        <div class="footer--inner">
+            <div class="container foot-container">
+                <div class="footer_main">
+                    <div class="am-g">
+                        <!--  -->
+                        <nav data-am-widget="menu" class="am-menu  am-menu-stack am-avg-sm-1">
+                            <a href="javascript: void(0)" class="am-menu-toggle">
+                                <i class="am-menu-toggle-icon am-icon-bars"></i>
+                            </a>
+
+
+                            <ul class="am-menu-nav am-avg-sm-1">
+                                <?php foreach ($menus as $k => $item) : ?>
+                                <li class="am-parent">
+                                    <a href="##" class=""><?= $item['name'] ?></a>
+                                    <ul class="am-menu-sub am-collapse  am-avg-sm-1 ">
+                                        <?php if (!empty($item['child'])) : foreach ($item['child'] as $child) : ?>
+                                        <li class="">
+                                            <a href="##" class="" style="color:#fff;" onclick="article(<?= $child['id'] ?>)"><?= $child['name'] ?></a>
+                                        </li>
+                                        <?php endforeach;
+                                endif; ?>
+                                        <!-- <li class=" am-menu-nav-channel"><a href="##" class="" title="公司">进入栏目 &raquo;</a></li> -->
+                                    </ul>
+                                </li>
+                                <?php endforeach; ?>
+                                <li class="am-parent">
+                                    <a href="##" class="">子公司链接</a>
+                                    <ul class="am-menu-sub am-collapse  am-avg-sm-1 ">
+                                        <?php foreach ($foot_company as $company) : ?>
+                                        <li class="">
+                                            <a href="<?= $company['jumpUrl'] ?>" style="color:#fff;">
+                                                <?= $company['name'] ?>
+                                            </a>
+                                        </li>
+                                        <?php endforeach; ?>
+                                        <!-- <li class="am-menu-nav-channel"><a href="##" class="" title="公司">进入栏目 &raquo;</a></li> -->
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <?php endif; ?>
     </div>
     <div class="footer-foot">Copyright © 2013-2019 备案号：闽ICP备15012807号-1</div>
 </div>
@@ -132,8 +180,7 @@
 
 
 
-
-
+    // footer
 
 
 

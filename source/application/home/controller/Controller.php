@@ -7,6 +7,7 @@ use think\Session;
 use app\common\model\Article;
 use app\common\model\WxappPage;
 use app\store\model\Setting;
+use think\Request;
 
 /**
  * 后台控制器基类
@@ -67,6 +68,7 @@ class Controller extends \think\Controller
             'menus' => $this->menus(),                     // 后台菜单
             'background' => $this->background(),
             'foot_company' => $this->foot_company(),
+            'is_moblie' => Request::instance()->isMobile()
             // 'store' => $this->store,                       // 商家登录信息
             // 'setting' => Setting::getAll() ?: null,        // 当前商城设置
         ]);
@@ -95,7 +97,7 @@ class Controller extends \think\Controller
     private function menus()
     {
         $model = new Article;
-        $list = $model->getMenuList()->toArray();                
+        $list = $model->getMenuList()->toArray();
         return $list;
     }
 
