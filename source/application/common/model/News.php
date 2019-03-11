@@ -47,4 +47,17 @@ class News extends BaseModel
     {
         return Article::where(['type' => 3])->select();
     }
+
+    // 
+    public function incRead()
+    {
+        // 开启事务
+        Db::startTrans();
+        try {
+            $this->setInc('read_count', 1);
+            Db::commit();            
+        } catch (\Exception $e) {
+            Db::rollback();
+        }        
+    }
 }

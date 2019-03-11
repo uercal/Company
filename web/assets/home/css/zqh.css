@@ -227,6 +227,30 @@ body {
 
 
 
+.news-second {
+    text-align: center;
+    color: #828282;
+    font-family: 微软雅黑, "Lucida Grande", "Lucida Sans", Helvetica, Arial, Sans;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+
+
+.cursor:hover #qrcode{
+    display: block;
+}
+
+.cursor #qrcode{
+    display: none;
+}
+
+
+.cursor{
+    cursor: pointer;
+}
+
+
 
 /* 
     Article
@@ -325,7 +349,7 @@ body {
     /*IE9*/
     -o-transform: scale(1.2);
     /*Opera*/
-    z-index: 100;    
+    z-index: 100;
 }
 
 .img9-attr {

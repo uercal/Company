@@ -25,6 +25,7 @@ class Index extends Controller
     {
         $id = input('id');
         $detail = Article::detail($id);
+        //
         if ($detail['type'] == 2) {
             $list = $detail->getImagePage();
             return $this->fetch('article', compact('detail', 'list'));
@@ -42,6 +43,8 @@ class Index extends Controller
     {
         $id = input('id');
         $news = News::detail($id);
+        // increase
+        $news->incRead();
         // halt($detail->toArray());
         return $this->fetch('news', compact('news'));
     }
@@ -52,5 +55,5 @@ class Index extends Controller
         $id = input('id');
         $project = Project::detail($id);
         return $this->fetch('project', compact('project'));
-     }
+    }
 }

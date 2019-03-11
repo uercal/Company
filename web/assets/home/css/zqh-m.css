@@ -255,7 +255,7 @@
     }
 
     .section {
-        padding: 2rem 0;
+        padding: 1rem 0;
     }
 
 
@@ -269,7 +269,7 @@
 
     .news-container p,
     .news-container p span {
-        font-size: 1.2rem !important;
+        font-size: 1.2rem !important;        
     }
 
 
@@ -277,7 +277,10 @@
         width: 100%;
     }
 
-
+    .news-second{
+        font-size: 1.0rem;
+        margin: 2rem 0;
+    }
 
     /*  */
     .banner,
