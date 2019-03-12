@@ -1,5 +1,5 @@
 <?php
-namespace app\home\controller;
+namespace app\en\controller;
 
 use app\common\model\Article;
 use app\common\model\News;

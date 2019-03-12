@@ -13,63 +13,6 @@ return [
         'icon' => 'icon-home',
         'index' => 'index/index',
     ],
-    // 'goods' => [
-    //     'name' => '商品管理',
-    //     'icon' => 'icon-goods',
-    //     'index' => 'goods/index',
-    //     'submenu' => [
-    //         [
-    //             'name' => '商品列表',
-    //             'index' => 'goods/index',
-    //             'uris' => [
-    //                 'goods/index',
-    //                 'goods/add',
-    //                 'goods/edit'
-    //             ],
-    //         ],
-    //         [
-    //             'name' => '商品分类',
-    //             'index' => 'goods.category/index',
-    //             'uris' => [
-    //                 'goods.category/index',
-    //                 'goods.category/add',
-    //                 'goods.category/edit',
-    //             ],
-    //         ]
-    //     ],
-    // ],
-    // 'order' => [
-    //     'name' => '订单管理',
-    //     'icon' => 'icon-order',
-    //     'index' => 'order/delivery_list',
-    //     'submenu' => [
-    //         [
-    //             'name' => '待发货',
-    //             'index' => 'order/delivery_list',
-    //         ],
-    //         [
-    //             'name' => '待收货',
-    //             'index' => 'order/receipt_list',
-    //         ],
-    //         [
-    //             'name' => '待付款',
-    //             'index' => 'order/pay_list',
-    //         ],
-    //         [
-    //             'name' => '已完成',
-    //             'index' => 'order/complete_list',
-
-    //         ],
-    //         [
-    //             'name' => '已取消',
-    //             'index' => 'order/cancel_list',
-    //         ],
-    //         [
-    //             'name' => '全部订单',
-    //             'index' => 'order/all_list',
-    //         ],
-    //     ]
-    // ],
     'article' => [
         'name' => '文章管理',
         'icon' => 'icon-order',
@@ -95,27 +38,12 @@ return [
         'icon' => 'icon-order',
         'index' => 'project/index',
     ],
-    // 'user' => [
-    //     'name' => '用户管理',
-    //     'icon' => 'icon-user',
-    //     'index' => 'user/index',
-    // ],
-    //    'marketing' => [
-    //        'name' => '营销管理',
-    //        'icon' => 'icon-marketing',
-    //        'index' => 'marketing/index',
-    //        'submenu' => [],
-    //    ],
     'wxapp' => [
         'name' => '首页',
         'icon' => 'icon-wxapp',
         'color' => '#36b313',
         'index' => 'wxapp.page/home',
         'submenu' => [
-            // [
-            //     'name' => '小程序设置',
-            //     'index' => 'wxapp/setting',
-            // ],
             [
                 'name' => '页面管理',
                 'active' => true,
@@ -124,75 +52,15 @@ return [
                         'name' => '首页设计',
                         'index' => 'wxapp.page/home'
                     ],
-                    // [
-                    //     'name' => '页面链接',
-                    //     'index' => 'wxapp.page/links'
-                    // ],
                 ]
             ],
-            // [
-            //     'name' => '帮助中心',
-            //     'index' => 'wxapp.help/index?type=1',
-            //     'urls' => [
-            //         'wxapp.help/index',
-            //         'wxapp.help/add?type=1',
-            //         'wxapp.help/edit',
-            //         'wxapp.help/delete'
-            //     ]
-            // ],
-            // [
-            //     'name' => '关于我们',
-            //     'index' => 'wxapp.help/index?type=2',
-            //     'urls' => [
-            //         'wxapp.help/index',
-            //         'wxapp.help/add?type=2',
-            //         'wxapp.help/edit',
-            //         'wxapp.help/delete'
-            //     ]
-            // ],
-            // [
-            //     'name' => '导航设置',
-            //     'index' => 'wxapp/tabbar'
-            // ],
-
         ],
     ],
-    // 'plugins' => [
-    //     'name' => '应用中心',
-    //     'icon' => 'icon-application',
-    //     'is_svg' => true,   // 多色图标
-    //     //        'index' => 'plugins/index',
-    // ],
     'setting' => [
         'name' => '设置',
         'icon' => 'icon-setting',
         'index' => 'setting.cache/clear',
         'submenu' => [
-            // [
-            //     'name' => '商城设置',
-            //     'index' => 'setting/store',
-            // ],
-            // [
-            //     'name' => '交易设置',
-            //     'index' => 'setting/trade',
-            // ],
-            // [
-            //     'name' => '配送设置',
-            //     'index' => 'setting.delivery/index',
-            //     'uris' => [
-            //         'setting.delivery/index',
-            //         'setting.delivery/add',
-            //         'setting.delivery/edit',
-            //     ],
-            // ],
-            // [
-            //     'name' => '短信通知',
-            //     'index' => 'setting/sms'
-            // ],
-            // [
-            //     'name' => '上传设置',
-            //     'index' => 'setting/storage',
-            // ],
             [
                 'name' => '其他',
                 'active' => true,
@@ -209,4 +77,47 @@ return [
             ]
         ],
     ],
+    // 'article_en' => [
+    //     'name' => 'ArticleManage',
+    //     'icon' => 'icon-order',
+    //     'index' => 'article_en/parent',
+    //     'submenu' => [
+    //         [
+    //             'name' => '分类管理',
+    //             'index' => 'article_en/parent',
+    //         ],
+    //         [
+    //             'name' => '文章管理',
+    //             'index' => 'article_en/index',
+    //         ]
+    //     ]
+    // ],
+    // 'news_en' => [
+    //     'name' => 'NewsManage',
+    //     'icon' => 'icon-order',
+    //     'index' => 'news_en/index',
+    // ],
+    // 'project_en' => [
+    //     'name' => 'ProjectManage',
+    //     'icon' => 'icon-order',
+    //     'index' => 'project_en/index',
+    // ],
+    // 'wxapp_en' => [
+    //     'name' => 'IndexPage',
+    //     'icon' => 'icon-wxapp',
+    //     'color' => '#36b313',
+    //     'index' => 'wxapp_en.page/home',
+    //     'submenu' => [
+    //         [
+    //             'name' => 'Index',
+    //             'active' => true,
+    //             'submenu' => [
+    //                 [
+    //                     'name' => 'Design',
+    //                     'index' => 'wxapp_en.page/home'
+    //                 ],
+    //             ]
+    //         ],
+    //     ],
+    // ],
 ];

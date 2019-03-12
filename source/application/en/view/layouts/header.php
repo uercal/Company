@@ -43,7 +43,7 @@
                                 <!-- sub-menu end-->
                             </li>
                             <?php endforeach; ?>
-                            <!-- <li class="menu-item-p"><a href="en.php">EN</a></li> -->
+                            <li class="menu-item-p"><a href="index.php">CN</a></li>
                         </ul>
 
                         <!--  -->

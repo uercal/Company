@@ -1,11 +1,11 @@
 <?php
 
-namespace app\home\controller;
+namespace app\en\controller;
 
 use think\Config;
 use think\Session;
-use app\common\model\Article;
-use app\common\model\WxappPage;
+use app\common\model\ArticleEn;
+use app\common\model\WxappPageEn;
 use app\store\model\Setting;
 use think\Request;
 
@@ -98,7 +98,7 @@ class Controller extends \think\Controller
      */
     private function menus()
     {
-        $model = new Article;
+        $model = new ArticleEn;
         $list = $model->getMenuList()->toArray();
         return $list;
     }
@@ -109,7 +109,7 @@ class Controller extends \think\Controller
      */
     private function background()
     {
-        $model = new WxappPage;
+        $model = new WxappPageEn;
         $items = $model::detail()['page_data']['array']['items'];
         $items = array_values($items);
         $banner = array_filter($items, function ($a) {
@@ -121,7 +121,7 @@ class Controller extends \think\Controller
 
     private function foot_company()
     {
-        $model = new WxappPage;
+        $model = new WxappPageEn;
         $items = $model::detail()['page_data']['array']['items'];
         $items = array_values($items);
         $company = array_filter($items, function ($a) {
@@ -134,7 +134,7 @@ class Controller extends \think\Controller
     // 
     public function getIndexData()
     {
-        $model = new WxappPage;
+        $model = new WxappPageEn;
         $items = $model::detail()['page_data']['array']['items'];
         $items = array_column($items, null, 'type');
         // halt($items['nav']['data']);
