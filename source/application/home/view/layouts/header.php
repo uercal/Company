@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/home/css/index.min.css" />
     <link rel="stylesheet" href="assets/home/css/zqh.css" />
     <link rel="stylesheet" href="assets/home/css/zqh-m.css?v=<?= time() ?>" />
+    <link rel="icon" href="assets/home/images/icon.ico" type="image/x-icon" />
 </head>
 
 <body>
