@@ -43,8 +43,8 @@ class Index extends Controller
     {
         $id = input('id');
         $news = News::detail($id);
-        // increase
-        $news->incRead();
+        // increase        
+        !empty($news) ? $news->incRead() : '';
         // halt($detail->toArray());
         return $this->fetch('news', compact('news'));
     }
@@ -54,7 +54,8 @@ class Index extends Controller
     {
         $id = input('id');
         $project = Project::detail($id);
-        $project->incRead();
+        // 
+        !empty($project) ? $project->incRead() : '';
         return $this->fetch('project', compact('project'));
     }
 }
