@@ -140,6 +140,7 @@
     })
 
     $('.news-container img').parent('p').css('text-align','center');
+    $('.news-container img').parent('div').css('text-align','center');
 
 
 
