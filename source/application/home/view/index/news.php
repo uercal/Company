@@ -41,7 +41,7 @@
             <a class="cursor" id="a-two-code2" style="position:relative;">
                 <img src="assets/home/images/wechat.png">
                 <!--  -->
-                <img id="qrcode" src="assets/home/images/wechat.png" style="width:130px;height:130px;position:absolute;top: 20px;right: 20px;">
+                <img id="qrcode" src="assets/home/images/qrcode.jpg" style="width:130px;height:130px;position:absolute;top: 20px;right: 20px;">
             </a>
             <a onclick="shareXLWeiBo()" class="cursor"><img src="assets/home/images/weibo.png"></a>
         </p>
