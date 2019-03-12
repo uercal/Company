@@ -41,6 +41,8 @@ class Article extends ArticleModel
         }
         if (isset($data['banner_id'])) {
             $data['banner_id'] = json_encode(array_values($data['banner_id']));
+        } else {
+            $data['banner_id'] = json_encode([]);
         }
         return $this->allowField(true)->save($data);
     }
