@@ -54,6 +54,7 @@ class Index extends Controller
     {
         $id = input('id');
         $project = Project::detail($id);
+        $project->incRead();
         return $this->fetch('project', compact('project'));
     }
 }

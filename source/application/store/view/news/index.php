@@ -27,12 +27,13 @@
                                     <th>标题</th>
                                     <th>封面</th>
                                     <th>排序</th>
+                                    <th>访问数</th>
                                     <th>添加时间</th>
                                     <th>操作</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php if (!$list->isEmpty()): foreach ($list as $item): ?>
+                                <?php if (!$list->isEmpty()) : foreach ($list as $item) : ?>
                                 <tr>
                                     <td class="am-text-middle">
                                         <?= $item['id'] ?>
@@ -54,6 +55,9 @@
                                         <?= $item['sort'] ?>
                                     </td>
                                     <td class="am-text-middle">
+                                        <?= $item['read_count'] ?>
+                                    </td>
+                                    <td class="am-text-middle">
                                         <?= $item['create_time'] ?>
                                     </td>
                                     <td class="am-text-middle">
@@ -71,7 +75,7 @@
                                     </td>
                                 </tr>
                                 <?php endforeach;
-                        else: ?>
+                        else : ?>
                                 <tr>
                                     <td colspan="7" class="am-text-center">暂无记录</td>
                                 </tr>

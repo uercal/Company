@@ -24,6 +24,7 @@
                                 <tr>
                                     <th>ID</th>
                                     <th>标题</th>
+                                    <th>访问数</th>
                                     <th>添加时间</th>
                                     <th>操作</th>
                                 </tr>
@@ -38,6 +39,9 @@
                                         <p class="item-title">
                                             <?= $item['title'] ?>
                                         </p>
+                                    </td>
+                                    <td class="am-text-middle">
+                                        <?= $item['read_count'] ?>
                                     </td>
                                     <td class="am-text-middle">
                                         <?= $item['create_time'] ?>
