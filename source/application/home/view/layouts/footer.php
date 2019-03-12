@@ -139,6 +139,10 @@
         window.location.href = src;
     })
 
+    $('.news-container img').parent('p').css('text-align','center');
+
+
+
     <?php endif; ?>
 
 
