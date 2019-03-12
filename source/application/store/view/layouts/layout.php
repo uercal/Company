@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="renderer" content="webkit" />
     <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <link rel="icon" type="image/png" href="assets/store/i/favicon.ico" />
+    <link rel="icon" type="image/png" href="assets/home/images/icon.ico" />
     <meta name="apple-mobile-web-app-title" content="<?= $setting['store']['values']['name'] ?>" />
     <link rel="stylesheet" href="assets/store/css/amazeui.min.css" />
     <link rel="stylesheet" href="assets/store/css/app.css" />
