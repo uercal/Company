@@ -72,7 +72,9 @@ class Article extends BaseModel
 
     public static function detail($id)
     {
-        return self::get($id, ['parent' => ['child']]);
+        return self::get($id, ['parent' => ['child' => function ($query) {
+            $query->order('sort asc');
+        }]]);
     }
 
     public static function getTypeTree()
@@ -149,7 +151,4 @@ class Article extends BaseModel
         ]);
         return $list;
     }
-
-
-    
 }
