@@ -88,7 +88,7 @@
     <div class="container">
         <div class="art3-container">
             <?php foreach ($list as $k => $new) : ?>
-            <div class="new3-item <?= $k == 1 ? 'rever' : '' ?>" onclick="news(<?= $new['id'] ?>)">
+            <div class="new3-item <?= ($k%2) == 0 ? 'rever' : '' ?>" onclick="news(<?= $new['id'] ?>)">
                 <div class="new3-div">
                     <img src="<?= $new['cover']['file_path'] ?>">
                     <div class="news3-cover">
