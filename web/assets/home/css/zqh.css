@@ -211,13 +211,15 @@ body {
 }
 
 .news-pic-title {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
+    margin: 6px 0px;
 }
 
 .new-pic-con {
-    font-size: 14px;
+    font-size: 12px;
     width: 100%;
+    color: #898989;
 }
 
 
@@ -237,16 +239,16 @@ body {
 
 
 
-.cursor:hover #qrcode{
+.cursor:hover #qrcode {
     display: block;
 }
 
-.cursor #qrcode{
+.cursor #qrcode {
     display: none;
 }
 
 
-.cursor{
+.cursor {
     cursor: pointer;
 }
 
@@ -616,6 +618,8 @@ body {
     word-wrap: break-word;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    font-size: 14px;
+    color: #898989;
     /* text-overflow: none;     */
 
 }
