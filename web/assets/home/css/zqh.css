@@ -294,7 +294,7 @@ body {
 .right-text p {
     margin: unset !important;
     /*  */
-    text-align: justify;
+    text-align: justify !important;
 }
 
 .r-content {
