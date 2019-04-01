@@ -27,7 +27,7 @@
                         <!--  -->
                         <div class="am-u-md-6 foot-company">
                             <div class="footer_main--column">
-                                <strong class="footer_main--column_title">子公司链接</strong>
+                                <strong class="footer_main--column_title">联盟公司链接</strong>
                                 <ul class="footer_contact_info">
                                     <?php foreach ($foot_company as $company) : ?>
                                     <li class="footer_contact_info--item">
@@ -71,7 +71,7 @@
                                 </li>
                                 <?php endforeach; ?>
                                 <li class="am-parent">
-                                    <a href="##" class="">子公司链接</a>
+                                    <a href="##" class="">联盟公司链接</a>
                                     <ul class="am-menu-sub am-collapse  am-avg-sm-1 ">
                                         <?php foreach ($foot_company as $company) : ?>
                                         <li class="">

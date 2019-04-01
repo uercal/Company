@@ -293,11 +293,15 @@ body {
 
 .right-text p {
     margin: unset !important;
+    /*  */
+    text-align: justify;
 }
 
 .r-content {
     padding: 10px 20px;
 }
+
+
 
 .r-logo {
     width: 200px;
