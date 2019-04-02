@@ -139,8 +139,8 @@
         window.location.href = src;
     })
 
-    $('.news-container img').parent('p').css('text-align','center');
-    $('.news-container img').parent('div').css('text-align','center');
+    $('.news-container img').parent('p').css('text-align', 'center');
+    $('.news-container img').parent('div').css('text-align', 'center');
 
 
 
@@ -207,6 +207,8 @@
         $('.img9-div img').mouseleave(function() {
             $(this).next().show();
         })
+
+        ieFix();
     })
 
 
@@ -228,6 +230,37 @@
         window.open(_shareUrl, '_blank', 'toolbar=no,menubar=no,scrollbars=no,resizable=1,location=no,status=0,' + 'width=' + _width + ',height=' + _height + ',top=' + (screen.height - _height) / 2 + ',left=' + (screen.width - _width) / 2);
     };
     <?php endif; ?>
+
+
+
+    // 
+    function ieFix() {
+        if (!!window.ActiveXObject || "ActiveXObject" in window) {
+            if ($(".pro-pic-item").length) {
+                $(".pro-pic-item").each(function() {
+                    $(this).css({
+                        "background-image": function() {
+                            var b = $(this).children("img").attr("src");
+                            $(this).children("img").remove();
+                            return "url(" + b + ")";
+                        }
+                    });
+                });
+            }
+
+            if ($(".news-pic-item").length) {
+                $(".news-pic-item").each(function() {
+                    $(this).children("img").css({
+                        "background-image": function() {
+                            var b = $(this).attr("src");
+                            $(this).removeAttr('src');
+                            return "url(" + b + ")";
+                        }
+                    });
+                });
+            }
+        }
+    }
 </script>
 
 </html> 

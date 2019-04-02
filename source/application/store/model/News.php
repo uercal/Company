@@ -5,6 +5,7 @@ namespace app\store\model;
 use app\common\model\News as NewsModel;
 use think\Cache;
 use think\Request;
+use think\Db;
 
 /**
  * 商品分类模型
@@ -33,12 +34,21 @@ class News extends NewsModel
      */
     public function edit($data)
     {
-        if (is_array($data['cover_id'])) {
-            if (isset($data['cover_id'])) {
-                $data['cover_id'] = array_values($data['cover_id'])[0]['id'];
+        Db::startTrans();
+        try {
+            if (is_array($data['cover_id'])) {
+                if (isset($data['cover_id'])) {
+                    $data['cover_id'] = array_values($data['cover_id'])[0]['id'];
+                }
             }
+            $this->allowField(true)->save($data);
+            Db::commit();
+            return true;
+        } catch (\Exception $e) {
+            $this->error = $e->getMessage();
+            return false;
+            Db::rollback();
         }
-        return $this->allowField(true)->save($data);
     }
 
 
