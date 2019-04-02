@@ -103,7 +103,7 @@
 
         // 删除元素
         var url = "<?= url('news/delete') ?>";
-        $('.item-delete').delete('id', url);
+        $('.item-delete').delete('article_id', url);
 
     });
 </script> 

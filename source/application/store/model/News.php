@@ -21,10 +21,19 @@ class News extends NewsModel
      */
     public function add($data)
     {
-        if (isset($data['cover_id'])) {
-            $data['cover_id'] = array_values($data['cover_id'])[0]['id'];
+        Db::startTrans();
+        try {
+            if (!empty($data['cover_id'])) {
+                $data['cover_id'] = array_values($data['cover_id'])[0]['id'];
+            }
+            $this->allowField(true)->save($data);
+            Db::commit();
+            return true;
+        } catch (\Exception $e) {
+            $this->error = $e->getMessage();
+            return false;
+            Db::rollback();
         }
-        return $this->allowField(true)->save($data);
     }
 
     /**
