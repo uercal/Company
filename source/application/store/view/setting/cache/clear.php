@@ -8,7 +8,7 @@
                             <div class="widget-head am-cf">
                                 <div class="widget-title am-fl">清理缓存</div>
                             </div>
-                            <!-- <div class="am-form-group">
+                            <div class="am-form-group">
                                 <label class="am-u-sm-3 am-form-label form-require">
                                     数据缓存
                                 </label>
@@ -21,7 +21,7 @@
                                         </label>
                                     <?php endforeach; ?>
                                 </div>
-                            </div> -->
+                            </div>
                             <?php if (isset($isForce) && $isForce === true): ?>
                                 <div class="am-form-group">
                                     <label class="am-u-sm-3 am-form-label form-require"> 强制模式 </label>
