@@ -352,7 +352,8 @@
     background: #AB1312;
     border-radius: 0 0 3px 3px;
     margin: 0;    
-    width: -webkit-fill-available;
+    /* width: -webkit-fill-available; */
+    width: 100%;
 }
 
 
