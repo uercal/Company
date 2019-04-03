@@ -25,7 +25,7 @@ body {
 .index3-item {
     width: 380px;
     height: 210px;
-    border: 2px solid #A0A0A0;
+    /* border: 2px solid #A0A0A0; */
     /* background: url(../images/footer.jpg); */
     background-size: cover;
     position: relative
