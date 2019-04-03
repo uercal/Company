@@ -351,7 +351,7 @@
     /* background: #fff; */
     background: #AB1312;
     border-radius: 0 0 3px 3px;
-    margin: 0;    
+    margin: 0;
     /* width: -webkit-fill-available; */
     width: 100%;
 }
@@ -436,7 +436,8 @@
 }
 
 .nav-child-item {
-    width: 115px;
+    /* width: 115px; */
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
