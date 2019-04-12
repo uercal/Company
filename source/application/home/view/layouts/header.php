@@ -6,6 +6,8 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="Description" content="中鼎集团（海南），核心业务板块以特色产业小镇、田园综合体、共享农庄投资运营、房地产开发为主。公司秉承“新锐、卓越、开放”的企业理念与“高效率、巧办法、全协作”的企业团队精神，在长期的项目开发建设过程中，公司已积累了丰富的项目开发实际运作经验，并建成了一支全面实操且重在营运的强有力团队。">
+    <meta name="Keywords" content="中鼎集团,中鼎集团（海南）,chontin,特色小镇,田园综合体,地产开发">
     <title>中鼎集团（海南）</title>
     <link rel="stylesheet" href="assets/home/css/amazeui.css" />
     <link rel="stylesheet" href="assets/home/css/common.min.css" />
