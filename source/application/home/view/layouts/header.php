@@ -6,7 +6,7 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
-    <title>中鼎集团</title>
+    <title>中鼎集团（海南）</title>
     <link rel="stylesheet" href="assets/home/css/amazeui.css" />
     <link rel="stylesheet" href="assets/home/css/common.min.css" />
     <link rel="stylesheet" href="assets/home/css/index.min.css" />
