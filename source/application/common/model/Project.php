@@ -48,9 +48,12 @@ class Project extends BaseModel
         // 开启事务
         Db::startTrans();
         try {
-            if (!empty($data['cover_id'])) {
-                $data['cover_id'] = array_values($data['cover_id'])[0]['id'];
+            if ($data['cover_id']) {
+                if (is_array($data['cover_id'])) {
+                    $data['cover_id'] = array_values($data['cover_id'])[0]['id'];
+                }
             }
+
             $this->allowField(true)->save($data);
             Db::commit();
             return true;

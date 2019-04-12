@@ -68,7 +68,7 @@ class Index extends Controller
         $detail = [
             'id' => 0,
             'pid' => 0,
-            'name' => '项目列表',
+            'name' => '项目总览',
             'type' => 3,
             'pro' => 1
         ];

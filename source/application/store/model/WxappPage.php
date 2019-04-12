@@ -48,7 +48,7 @@ class WxappPage extends WxappPageModel
         }
         $_page_data = array_column($_page_data, null, 'id');
         $page_data['items'] = $_page_data;
-
+        
         Db::startTrans();
         try {
             // 删除wxapp缓存

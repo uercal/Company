@@ -71,7 +71,7 @@
                                 </li>
                                 <?php endforeach; ?>
                                 <li class="am-parent">
-                                    <a href="##" class="" onclick="proList()">项目列表</a>                                                                        
+                                    <a href="##" class="" onclick="proList()">项目总览</a>                                                                        
                                 </li>
                                 <li class="am-parent">
                                     <a href="##" class="">联盟公司链接</a>
@@ -131,7 +131,7 @@
         var url = "<?= url('/proList') ?>";
         window.location.href = url;
     }
-
+    
 
     <?php if ((isset($detail) && $detail['type'] == 1) || isset($news)) : ?>
     $('.art1-container img').click(function() {
