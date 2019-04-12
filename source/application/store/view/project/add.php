@@ -17,6 +17,33 @@
                                 </div>
                             </div>
 
+                            <div class="am-form-group">
+                                <label class="am-u-sm-3 am-u-lg-2 am-form-label">封面图</label>
+                                <div class="am-u-sm-9 am-u-end">
+                                    <div class="am-form-file">
+                                        <div class="am-form-file">
+                                            <button type="button" class="upload-file am-btn am-btn-secondary am-radius">
+                                                <i class="am-icon-cloud-upload"></i> 选择图片
+                                            </button>
+                                            <div class="uploader-list am-cf">
+                                                <?php if (isset($model)) : ?>
+                                                    <?php if (!empty($model['cover'])) : ?>
+                                                        <div class="file-item">
+                                                            <img src="<?= $model['cover']['file_path'] ?>">
+                                                            <input type="hidden" name="project[cover_id]" value="<?= $model['cover']['file_id'] ?>">
+                                                            <i class="iconfont icon-shanchu file-item-delete"></i>
+                                                        </div>
+                                                    <?php endif;
+                                            endif; ?>
+                                            </div>
+                                        </div>
+                                        <div class="help-block am-margin-top-sm">
+                                            <small>尺寸750x750像素以上，大小2M以下</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="detail">
                                 <div class="widget-head am-cf">
                                     <div class="widget-title am-fl">详情</div>
@@ -65,8 +92,8 @@
 
         // 选择图片
         $('.upload-file').selectImages({
-            name: 'article[pic_ids]',
-            multiple: true
+            name: 'project[cover_id]',
+            multiple: false
         });
 
         // 图片列表拖动
@@ -95,4 +122,4 @@
 
 
     });
-</script> 
+</script>

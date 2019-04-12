@@ -59,5 +59,19 @@ class Index extends Controller
         return $this->fetch('project', compact('project'));
     }
 
-    
+
+
+    public function proList()
+    {
+        $pro = new Project;
+        $list = $pro->getList();
+        $detail = [
+            'id' => 0,
+            'pid' => 0,
+            'name' => '项目列表',
+            'type' => 3,
+            'pro' => 1
+        ];
+        return $this->fetch('article', compact('detail', 'list'));
+    }
 }

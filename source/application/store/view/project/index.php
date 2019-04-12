@@ -24,6 +24,7 @@
                                 <tr>
                                     <th>ID</th>
                                     <th>标题</th>
+                                    <th>封面</th>
                                     <th>访问数</th>
                                     <th>添加时间</th>
                                     <th>操作</th>
@@ -39,6 +40,11 @@
                                         <p class="item-title">
                                             <?= $item['title'] ?>
                                         </p>
+                                    </td>
+                                    <td class="am-text-middle">
+                                        <a href="<?= $item['cover']['file_path'] ?>" title="点击查看大图" target="_blank">
+                                            <img src="<?= $item['cover']['file_path'] ?>" width="72" height="72" alt="">
+                                        </a>
                                     </td>
                                     <td class="am-text-middle">
                                         <?= $item['read_count'] ?>

@@ -71,6 +71,9 @@
                                 </li>
                                 <?php endforeach; ?>
                                 <li class="am-parent">
+                                    <a href="##" class="" onclick="proList()">项目列表</a>                                                                        
+                                </li>
+                                <li class="am-parent">
                                     <a href="##" class="">联盟公司链接</a>
                                     <ul class="am-menu-sub am-collapse  am-avg-sm-1 ">
                                         <?php foreach ($foot_company as $company) : ?>
@@ -124,7 +127,10 @@
         $nav.offCanvas('close');
     }
 
-
+    function proList(){
+        var url = "<?= url('/proList') ?>";
+        window.location.href = url;
+    }
 
 
     <?php if ((isset($detail) && $detail['type'] == 1) || isset($news)) : ?>

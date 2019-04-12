@@ -20,6 +20,12 @@ class Project extends BaseModel
     protected $insert = ['wxapp_id' => 10001];
 
 
+    public function cover()
+    {
+        return $this->hasOne('UploadFile', 'file_id', 'cover_id');
+    }
+
+
     public function getList()
     {
         return $this->paginate(15, false, [
@@ -38,8 +44,21 @@ class Project extends BaseModel
 
 
     public function add($data)
-    {
-        return $this->allowField(true)->save($data);
+    {        
+        // 开启事务
+        Db::startTrans();
+        try {
+            if (!empty($data['cover_id'])) {
+                $data['cover_id'] = array_values($data['cover_id'])[0]['id'];
+            }
+            $this->allowField(true)->save($data);
+            Db::commit();
+            return true;
+        } catch (\Exception $e) {
+            $this->error = $e->getMessage();
+            Db::rollback();
+            return false;
+        }
     }
 
 
