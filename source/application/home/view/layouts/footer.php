@@ -91,7 +91,7 @@
         </div>
         <?php endif; ?>
     </div>
-    <div class="footer-foot">Copyright © 2013-2019 备案号：闽ICP备15012807号-1</div>
+    <div class="footer-foot">Copyright © 2019-2022 备案号：琼ICP备19001418号-1</div>
 </div>
 <script src="assets/home/js/jquery-2.1.0.js" charset="utf-8"></script>
 <script src="assets/home/js/amazeui.js" charset="utf-8"></script>
