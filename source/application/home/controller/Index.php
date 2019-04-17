@@ -31,8 +31,7 @@ class Index extends Controller
             return $this->fetch('article', compact('detail', 'list'));
         }
         if ($detail['type'] == 3) {
-            $list = $detail->getNews();
-            // halt(checkCN($list[0]['content']));
+            $list = $detail->getNews();            
             return $this->fetch('article', compact('detail', 'list'));
         }
         return $this->fetch('article', compact('detail'));
