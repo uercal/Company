@@ -127,7 +127,7 @@
                     <img src="<?= $detail['image'][0]['src'] ?>">
                 </div>
                 <div class="right-text">
-                    <img class="r-logo" src="assets/home/images/logo.png">
+                    <!-- <img class="r-logo" src="assets/home/images/logo.png"> -->
                     <div class="r-content">
                         {{:htmlspecialchars_decode($detail['content'])}}
                     </div>
