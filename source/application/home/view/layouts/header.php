@@ -126,7 +126,7 @@
             <!--mobile header end-->
         </div>
 
-        <!--===========layout-container================-->
+        <!--===========layout-container================-->		
         <div class="layout-container">
             <div class="index-page">
                 <div data-am-widget="tabs" class="am-tabs am-tabs-default banner">
@@ -151,6 +151,6 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>			
 
     </div>

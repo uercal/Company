@@ -112,9 +112,16 @@ class Controller extends \think\Controller
         $model = new WxappPage;
         $items = $model::detail()['page_data']['array']['items'];
         $items = array_values($items);
-        $banner = array_filter($items, function ($a) {
-            return $a['type'] == 'banner';
-        });
+		$is_moblie = Request::instance()->isMobile();
+		if($is_moblie){
+			$banner = array_filter($items, function ($a) {
+				return $a['type'] == 'mobile_banner';
+			});
+		}else{
+			$banner = array_filter($items, function ($a) {
+			    return $a['type'] == 'banner';
+			});
+		}        
         $banner = array_values($banner)[0]['data'];
         return $banner;
     }

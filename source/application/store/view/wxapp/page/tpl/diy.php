@@ -36,6 +36,20 @@
     </div>
 </script>
 
+<!-- diy元素: mobile_banner -->
+<script id="tpl_diy_mobile_banner" type="text/template">
+    <div class="drag" id="diy-{{ id }}" data-itemid="{{ id }}">
+        <div class="diy-banner">
+            {{each data}}
+                <img src="{{ $value.imgUrl }}">
+            {{/each}}            
+        </div>
+        <div class="btn-edit-del">
+            <!-- <div class="btn-edit">编辑</div>
+            <div class="btn-del">删除</div> -->
+        </div>
+    </div>
+</script>
 
 <!-- diy元素：nav -->
 <script id="tpl_diy_nav" type="text/template">

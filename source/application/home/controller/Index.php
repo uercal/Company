@@ -18,7 +18,8 @@ class Index extends Controller
     public function index()
     {
         $index_data = $this->getIndexData();
-        return $this->fetch('index/index', compact('index_data'));
+		$is_moblie = Request::instance()->isMobile();				
+        return $this->fetch('index/index', compact('index_data','is_mobile'));
     }
 
     public function article()

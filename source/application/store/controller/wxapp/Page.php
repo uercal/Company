@@ -21,8 +21,8 @@ class Page extends Controller
     {
         $model = WxappPageModel::detail();
         if (!$this->request->isAjax()) {
-            $jsonData = $model['page_data']['json'];            
-            return $this->fetch('home', compact('jsonData'));
+            $jsonData = $model['page_data']['json'];            			
+            return $this->fetch('home', compact('jsonData','model'));
         }
         $data = $this->postData('data');        
         if (!$model->edit($data)) {
