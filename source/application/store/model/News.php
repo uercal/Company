@@ -45,8 +45,8 @@ class News extends NewsModel
     {
         Db::startTrans();
         try {
-            if (is_array($data['cover_id'])) {
-                if (isset($data['cover_id'])) {
+            if (isset($data['cover_id'])&&is_array($data['cover_id'])) {
+                if (!empty($data['cover_id'])) {
                     $data['cover_id'] = array_values($data['cover_id'])[0]['id'];
                 }
             }
@@ -68,7 +68,7 @@ class News extends NewsModel
 
     public function getList($map = [])
     {
-        return $this->with(['parent'])->where($map)->paginate(15, false, [
+        return $this->with(['parent'])->where($map)->order('sort asc')->paginate(15, false, [
             'query' => Request::instance()->request()
         ]);
     }
